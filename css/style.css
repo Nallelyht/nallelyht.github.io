@@ -1,0 +1,50 @@
+body { padding-top: 70px; } 
+body .navbar-default, .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a{
+	background-color: #441151;
+	border-radius: 0;
+	border-color: #441151;
+	color: #d0cab1;
+}
+
+header{
+	background: url(../assets/img/nachita.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	margin-top: -2rem
+}
+/*about me*/
+.about{
+	height: 50vh;
+	background-color: #9297C4;
+
+}
+/*proyects*/
+#proyects h2{
+	color: #441151;
+}
+#proyects {
+	padding-bottom: 5%;
+	background-color: #d0cab1;
+}
+img:hover{
+	opacity: 0.8;
+	border-radius: 100%;
+	transition: all 2s ease;
+}
+/*Footer*/
+footer{
+	background-color: #441151;
+}
+h4 i, h4 a, h4, footer h2,.row a:link, p a{
+	color: #9297C4;
+}
+.bottom-footer{
+	background-color: #4F759B;
+	color: #92C9B1;
+}
+.desing{
+	background-color: #011936;
+	padding-top: 1%;
+}
