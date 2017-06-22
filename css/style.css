@@ -10,8 +10,11 @@ body .navbar-default,
   border-radius: 0;
   border-color: #441151;
   color: #9297C4;
+  font-size: 2rem;
 }
-
+.navbar-header .navbar-brand{
+  font-size: 3rem;
+}
 header{
   background: url(../assets/img/img-noise-1000x400.png);
   background-size: cover;
@@ -50,11 +53,11 @@ padding: 0;
   background-color: #d0cab1;
 }
 
-img:hover{
+/* img:hover{
   opacity: 0.8;
   border-radius: 100%;
   transition: all 2s ease;
-}
+} */
 
 .btn{
   background-color: #9297C4;
