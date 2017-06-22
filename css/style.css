@@ -1,61 +1,64 @@
 body { 
-	padding-top: 70px; 
-	font-family: 'Patrick Hand', cursive;
+  padding-top: 70px; 
+  font-family: 'Patrick Hand', cursive;
 }
 
 body .navbar-default, 
 .navbar-default .navbar-brand, 
 .navbar-default .navbar-nav>li>a{
-	background-color: #441151;
-	border-radius: 0;
-	border-color: #441151;
-	color: #9297C4;
+  background-color: #441151;
+  border-radius: 0;
+  border-color: #441151;
+  color: #9297C4;
 }
 
 header{
-	background: url(../assets/img/img-noise-1000x400.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 70vh;
-	margin-top: -2rem;
-	background-color: #9297C4;
+  background: url(../assets/img/img-noise-1000x400.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vh;
+  margin-top: -2rem;
+  background-color: #9297C4;
 
 }
 header h1{
-	font-size: 10rem;
-	padding: 8% 5% 0 5%;
+  font-size: 10rem;
+  padding: 8% 5% 0 5%;
 }
 header h2{
-	font-size: 6rem;
+  font-size: 6rem;
 }
 .font-coming{
-	font-family: 'Neucha', cursive;
+  font-family: 'Neucha', cursive;
 }
 /*about me*/
 .about{
-	height: 50vh;
+  height: 70vh;
+  padding-top: 5%;
+}
 
-
+.me-picture{
+padding: 0;
 }
 /*proyects*/
 #proyects h2{
-	color: #441151;
+  color: #441151;
 }
 #proyects {
-	padding-bottom: 5%;
-	background-color: #d0cab1;
+  padding-bottom: 5%;
+  background-color: #d0cab1;
 }
 
 img:hover{
-	opacity: 0.8;
-	border-radius: 100%;
-	transition: all 2s ease;
+  opacity: 0.8;
+  border-radius: 100%;
+  transition: all 2s ease;
 }
 
 .btn{
-	background-color: #9297C4;
-	color: #d0cab1;
+  background-color: #9297C4;
+  color: #d0cab1;
 }
 .overlay {
   position: absolute;
@@ -87,16 +90,16 @@ img:hover{
 }
 /*Footer*/
 footer{
-	background-color: #441151;
+  background-color: #441151;
 }
 h4 i, h4 a, h4, footer h2, footer a:link, p a{
-	color: #9297C4;
+  color: #9297C4;
 }
 .bottom-footer{
-	background-color: #4F759B;
-	color: #92C9B1;
+  background-color: #4F759B;
+  color: #92C9B1;
 }
 .desing{
-	background-color: #011936;
-	padding-top: 1%;
+  background-color: #011936;
+  padding-top: 1%;
 }
