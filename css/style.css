@@ -11,6 +11,7 @@ body .navbar-default,
 	border-color: #441151;
 	color: #9297C4;
 	font-size: 2rem;
+	
 }
 .navbar-header .navbar-brand{
 	font-size: 3rem;
@@ -20,6 +21,7 @@ header{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position:right;
+	background-color: #9297C4;
 	margin-top: -2rem;
 	display: flex;
 	justify-content: center;
@@ -108,6 +110,11 @@ transition: all 2s ease;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
+}
+/*Skills*/
+.img-skills{
+	width: 5rem;
+	display: inline;
 }
 /*Footer*/
 footer{
