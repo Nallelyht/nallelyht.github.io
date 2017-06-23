@@ -61,9 +61,16 @@ body .navbar,
     padding: 15px 0;
 
   }
+	
   .navbar-defaults.affix {
     padding: 0;
   }
+}
+@media(max-width:768px){
+	.mobile{
+		display: none;
+	}
+}
   /*header*/
 
   header{
