@@ -103,7 +103,7 @@ body .navbar,
     background-repeat: no-repeat;
     background-position:right;
   }
-  #about-me h2{
+  #about-me h2, #proyects h2{
     text-align: center;
     font-size: 3.5rem;
     margin-bottom: 5%;
@@ -125,6 +125,7 @@ body .navbar,
     color: #441151;
   }
   #proyects {
+		padding-top: 5%;
     padding-bottom: 5%;
     background-color: #d0cab1;
   }
@@ -183,7 +184,7 @@ body .navbar,
     background-color: #4F759B;
     color: #92C9B1;
   }
-  .desing{
+  .design{
     background-color: #011936;
     padding-top: 1%;
   }
