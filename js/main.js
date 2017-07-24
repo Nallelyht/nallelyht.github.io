@@ -7,4 +7,7 @@ $('#mainNav').affix({
   offset: {
     top: 100
   }
-})
+});
+$(document).ready(function() {
+	$(".flag").lettering();
+});
