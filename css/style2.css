@@ -1,6 +1,6 @@
 body { 
 	padding-top: 70px; 
-	font-family: 'Patrick Hand', cursive;
+	font-family: 'Montserrat Alternates', sans-serif;
 }
 
 body .navbar, 
@@ -9,7 +9,7 @@ body .navbar,
 	background-color: #441151;
 	border-radius: 0;
 	border-color: #441151;
-	color: #9297C4;
+	color: #339999;
 	font-size: 2rem;
 
 } 
@@ -26,7 +26,7 @@ body .navbar,
 	border-radius: 1px;
 	height: 5px;
 	width: 35px;
-	background: #9297C4 ;
+	background: #339999 ;
 	position: absolute;
 	display: block;
 	content: ''; 
@@ -76,7 +76,6 @@ body .navbar,
 }
 /*______header____*/
 header{
-
 	background-color: #eeb3d4;
 	margin-top: -2rem;
 	display: flex;
@@ -88,14 +87,14 @@ h1.flag {
 	white-space: nowrap;
 	font-size: 2vw;
 	position: relative;
-	cursor: default
+	cursor: default;
+	font-family: 'Syncopate', sans-serif;
 
+	/* Paper Shadow */
 
-		/* Paper Shadow */
+	/* Each letter */
 
-		/* Each letter */
-
-		/* Hover interaction */
+	/* Hover interaction */
 }
 h1.flag::before {
 	content: '';
@@ -141,16 +140,16 @@ h1.flag span::before {
 h1.flag span:nth-child(odd) {
 	-webkit-transform: skewY(-8deg);
 	transform: skewY(-8deg);
-	color: rgb(217, 213, 200);
+	color:#333366;
 	background: -webkit-linear-gradient(120deg, rgb(255, 255, 255), rgb(237, 236, 227));
 	background: linear-gradient(-30deg, rgb(255, 255, 255), rgb(237, 236, 227));
-	box-shadow: inset -1px 0 0px rgba(255, 255, 255, .3);
+	box-shadow: inset -1px 0 0px rgba(255, 255, 255, .4);
 	perspective: 1000px;
 }
 h1.flag span:nth-child(even) {
 	-webkit-transform: skewY(8deg);
 	transform: skewY(8deg);
-	color: #C5BEAA;
+	color: #333366;
 	background: -webkit-linear-gradient(3deg, rgb(199, 198, 191), rgb(237, 236, 227));
 	background: linear-gradient(87deg, rgb(199, 198, 191), rgb(237, 236, 227));
 	box-shadow: inset -1px 0 0px rgba(0, 0, 0, .05);
@@ -176,7 +175,8 @@ h1.flag:hover:before {
 h1.flag:hover span {
 	-webkit-transform: none;
 	transform: none;
-	color: #C5BEAA;
+	color: #339999;
+
 	box-shadow: none;
 	-webkit-transition-duration: 200ms;
 	transition-duration: 200ms;
