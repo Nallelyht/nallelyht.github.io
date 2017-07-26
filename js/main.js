@@ -10,4 +10,5 @@ $('#mainNav').affix({
 });
 $(document).ready(function() {
 	$(".flag").lettering();
+	new WOW().init();
 });
