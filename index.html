@@ -4,11 +4,12 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-		<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Neucha|Patrick+Hand" rel="stylesheet">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+		<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Syncopate:700" rel="stylesheet" />
+		<link rel="shortcut icon" type="image/x" href="assets/img/nh_logo_v1-02.png">
+		<link rel="stylesheet" href="css/style2.css" />
 		<title>Nallely House</title>
 	</head>
 	<body>
@@ -21,7 +22,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Nallely House</a>
+					<a class="navbar-brand img-responsive" href="#"><img src="assets/img/nh_logo_v1-02.png" alt="logo" class="img-responsive"></a>
 				</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
@@ -33,15 +34,11 @@
 				</div>
 			</div>
 		</nav>
-		<header class="container-fluid">
-			<div class="row">
-				<div class="col-xs-10">
-					<h1 class="text-center animated bounceInDown font">Nallely House</h1>
-				</div>
-				<div class="col-xs-9">
-					<h2 class="text-center font fadeInLeftBig animated">FrontEnd Developer</h2>
-				</div>
-			</div>	
+		<header>
+			<div class="container">
+				<h1 class="flag">Nallely&nbsp;House</h1>
+				<h3 class="header-text">FrontEnd&nbsp;Developer</h3>
+			</div>
 		</header>
 		<section id="about-me" class="container-fluid about">
 			<h2 class="font">Acerca de mí</h2>
@@ -54,7 +51,7 @@
 						Mi nombre es Miriam Nallely House Tomas pero me gusta que me digan Nash.
 					</h3>
 					<h3>
-						Dicen que no hay mejor camino para aprender que enseñar por ello amo saber y compartir, adoro la sensación de ver funcionales mis código y eso que parecía no tener solución sea descifrado, procuro aprender y no repetir mis errores. <br> 
+						Dicen que no hay mejor camino para aprender que enseñar por ello amo saber y compartir, adoro la sensación de ver funcionales mis código, eso que parecía no tener solución sea descifrado, procuro aprender y no repetir mis errores. 
 					</h3>
 				</div>
 			</div>
@@ -66,158 +63,160 @@
 </h3>
 -->
 		</section>
-		<section id="proyects" class="container-fluid">
-			<h2 class="font">Proyectos</h2>
-			<div class="row">
-				<div class="col-md-offset-1 col-md-4 col-xs-8 mobile">
-					<img class="img-responsive" src="assets/img/lyft.png" alt="proyecto1">
-					<div class="overlay">
-						<div class="text row">
-							<p>Proyecto con bootstrap</p>
-							<div class="col-xs-6">
-								<a href="https://nallelyht.github.io/lyft-app" target="_blank" class="btn pull-right">
-									Demo
-								</a>
+		<section id="proyects" class="proyects">
+			<div class="container">
+				<h2 class="font">Proyectos</h2>
+				<div class="row">
+					<div class="col-md-offset-1 col-md-4 col-xs-8 mobile wow bounceInUp">
+						<img class="img-responsive" src="assets/img/lyft.png" alt="proyecto1">
+						<div class="overlay">
+							<div class="text row">
+								<p>Proyecto con bootstrap</p>
+								<div class="col-xs-6">
+									<a href="https://nallelyht.github.io/lyft-app" target="_blank" class="btn pull-right">
+										Demo
+									</a>
+								</div>
+								<div class="col-xs-6">
+									<a href="https://github.com/Nallelyht/lyft-app" target="_blank" class="btn">
+										Código
+									</a>
+								</div>
 							</div>
-							<div class="col-xs-6">
-								<a href="https://github.com/Nallelyht/lyft-app" target="_blank" class="btn">
-									Código
-								</a>
+						</div>
+					</div>
+					<div class="col-md-offset-1 col-md-4 col-xs-8 col-xs-offset-2 wow bounceInUp">
+						<img class="img-responsive" src="assets/img/labcar.png" alt="proyecto2">
+						<div class="overlay">
+							<div class="text row">
+								<p class="text-justify pull-right">Proyecto con bootstrap y <br> API de GoogleMaps</p>
+								<div class="col-xs-6">
+									<a href="https://nallelyht.github.io/proyectoFinal-Labcar" target="_blank" class="btn pull-right">
+										Demo
+									</a>
+								</div>
+								<div class="col-xs-6">
+									<a href="https://github.com/Nallelyht/proyectoFinal-Labcar" target="_blank" class="btn">
+										Código
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-offset-1 col-md-4 col-xs-8 col-xs-offset-2">
-					<img class="img-responsive" src="assets/img/labcar.png" alt="proyecto2">
-					<div class="overlay">
-						<div class="text row">
-							<p class="text-justify pull-right">Proyecto con bootstrap y <br> API de GoogleMaps</p>
-							<div class="col-xs-6">
-								<a href="https://nallelyht.github.io/proyectoFinal-Labcar" target="_blank" class="btn pull-right">
-									Demo
-								</a>
+				<br>
+				<div class="row">
+					<div class="col-md-offset-1 col-md-4 col-xs-8 col-xs-offset-2 wow bounceInUp">
+						<img class="img-responsive"  src="assets/img/replica-bootstrap.png" alt="proyecto3">
+						<div class="overlay">
+							<div class="text row">
+								<p class="text-justify pull-right">Replica theme de Bootstrap</p>
+								<div class="col-xs-6">
+									<a href="https://nallelyht.github.io/theme-bootstrap" target="_blank" class="btn pull-right">
+										Demo
+									</a>
+								</div>
+								<div class="col-xs-6">
+									<a href="https://github.com/Nallelyht/theme-bootstrap" target="_blank" class="btn">
+										Código
+									</a>
+								</div>
 							</div>
-							<div class="col-xs-6">
-								<a href="https://github.com/Nallelyht/proyectoFinal-Labcar" target="_blank" class="btn">
-									Código
-								</a>
+						</div>
+					</div>
+					<div class="col-md-offset-1 col-md-4 col-xs-8 mobile wow bounceInUp">
+						<img class="img-responsive" src="assets/img/grid-system.png" alt="proyecto4">
+						<div class="overlay">
+							<div class="text row">
+								<p>Practica de grid system y <br>modal con javaScript</p>
+								<div class="col-xs-6">
+									<a href="https://nallelyht.github.io/applove" target="_blank" class="btn pull-right">
+										Demo
+									</a>
+								</div>
+								<div class="col-xs-6">
+									<a href="https://github.com/Nallelyht/applove" target="_blank" class="btn">
+										Código
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<br>
-			<div class="row">
-				<div class="col-md-offset-1 col-md-4 col-xs-8 col-xs-offset-2">
-					<img class="img-responsive"  src="assets/img/replica-bootstrap.png" alt="proyecto3">
-					<div class="overlay">
-						<div class="text row">
-							<p class="text-justify pull-right">Replica theme de Bootstrap</p>
-							<div class="col-xs-6">
-								<a href="https://nallelyht.github.io/theme-bootstrap" target="_blank" class="btn pull-right">
-									Demo
-								</a>
+				<br>
+				<div class="row">
+					<div class="col-md-offset-1 col-md-4 col-xs-8 mobile wow bounceInUp">
+						<img class="img-responsive" src="assets/img/contactos.png" alt="proyecto4">
+						<div class="overlay">
+							<div class="text row">
+								<p>Proyecto con Materialize y jQuery</p>
+								<div class="col-xs-6">
+									<a href="https://nallelyht.github.io/proyecto-geolocalizacion" target="_blank" class="btn pull-right">
+										Demo
+									</a>
+								</div>
+								<div class="col-xs-6">
+									<a href="https://github.com/Nallelyht/proyecto-geolocalizacion" target="_blank" class="btn">
+										Código
+									</a>
+								</div>
 							</div>
-							<div class="col-xs-6">
-								<a href="https://github.com/Nallelyht/theme-bootstrap" target="_blank" class="btn">
-									Código
-								</a>
+						</div>
+					</div>
+					<div class="col-md-offset-1 col-md-4 col-xs-8 col-xs-offset-2 wow bounceInUp">
+						<img class="img-responsive" src="assets/img/garnacha.png" alt="proyecto4">
+						<div class="overlay">
+							<div class="text row">
+								<p class="text-justify pull-right">Proyecto con Materialize y <br> API de GoogleMaps</p>
+								<div class="col-xs-6">
+									<a href="https://nallelyht.github.io/proyecto-geolocalizacion" target="_blank" class="btn pull-right">
+										Demo
+									</a>
+								</div>
+								<div class="col-xs-6">
+									<a href="https://github.com/Nallelyht/proyecto-geolocalizacion" target="_blank" class="btn">
+										Código
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-offset-1 col-md-4 col-xs-8 mobile">
-					<img class="img-responsive" src="assets/img/grid-system.png" alt="proyecto4">
-					<div class="overlay">
-						<div class="text row">
-							<p>Practica de grid system y <br>modal con javaScript</p>
-							<div class="col-xs-6">
-								<a href="https://nallelyht.github.io/applove" target="_blank" class="btn pull-right">
-									Demo
-								</a>
-							</div>
-							<div class="col-xs-6">
-								<a href="https://github.com/Nallelyht/applove" target="_blank" class="btn">
-									Código
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<br>
-			<div class="row">
-				<div class="col-md-offset-1 col-md-4 col-xs-8 mobile">
-					<img class="img-responsive" src="assets/img/contactos.png" alt="proyecto4">
-					<div class="overlay">
-						<div class="text row">
-							<p>Proyecto con Materialize y jQuery</p>
-							<div class="col-xs-6">
-								<a href="https://nallelyht.github.io/proyecto-geolocalizacion" target="_blank" class="btn pull-right">
-									Demo
-								</a>
-							</div>
-							<div class="col-xs-6">
-								<a href="https://github.com/Nallelyht/proyecto-geolocalizacion" target="_blank" class="btn">
-									Código
-								</a>
+				<br>
+				<div class="row">
+					<div class="col-md-offset-1 col-md-4 col-xs-8 mobile wow bounceInUp">
+						<img class="img-responsive" src="assets/img/pokedex.png" alt="proyecto4">
+						<div class="overlay">
+							<div class="text row">
+								<p>Proyecto con Materialize, API Pokedex y jQuery</p>
+								<div class="col-xs-6">
+									<a href="https://nallelyht.github.io/pokedex" target="_blank" class="btn pull-right">
+										Demo
+									</a>
+								</div>
+								<div class="col-xs-6">
+									<a href="https://github.com/Nallelyht/pokedex" target="_blank" class="btn">
+										Código
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-md-offset-1 col-md-4 col-xs-8 col-xs-offset-2">
-					<img class="img-responsive" src="assets/img/garnacha.png" alt="proyecto4">
-					<div class="overlay">
-						<div class="text row">
-							<p class="text-justify pull-right">Proyecto con Materialize y <br> API de GoogleMaps</p>
-							<div class="col-xs-6">
-								<a href="https://nallelyht.github.io/proyecto-geolocalizacion" target="_blank" class="btn pull-right">
-									Demo
-								</a>
-							</div>
-							<div class="col-xs-6">
-								<a href="https://github.com/Nallelyht/proyecto-geolocalizacion" target="_blank" class="btn">
-									Código
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<br>
-			<div class="row">
-				<div class="col-md-offset-1 col-md-4 col-xs-8 mobile">
-					<img class="img-responsive" src="assets/img/pokedex.png" alt="proyecto4">
-					<div class="overlay">
-						<div class="text row">
-							<p>Proyecto con Materialize, API Pokedex y jQuery</p>
-							<div class="col-xs-6">
-								<a href="https://nallelyht.github.io/pokedex" target="_blank" class="btn pull-right">
-									Demo
-								</a>
-							</div>
-							<div class="col-xs-6">
-								<a href="https://github.com/Nallelyht/pokedex" target="_blank" class="btn">
-									Código
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-offset-1 col-md-4  col-xs-offset-2 col-xs-8">
-					<img class="img-responsive" src="assets/img/crud-tareas.png" alt="proyecto4">
-					<div class="overlay">
-						<div class="text row">
-							<p class="text-justify pull-right">Proyecto con Bootstrap, se borran <br>y agregan datos a API de Laboratoría</p>
-							<div class="col-xs-6">
-								<a href="https://nallelyht.github.io/pokedex" target="_blank" class="btn pull-right">
-									Demo
-								</a>
-							</div>
-							<div class="col-xs-6">
-								<a href="https://github.com/Nallelyht/pokedex" target="_blank" class="btn">
-									Código
-								</a>
+					<div class="col-md-offset-1 col-md-4  col-xs-offset-2 col-xs-8 wow bounceInUp">
+						<img class="img-responsive" src="assets/img/crud-tareas.png" alt="proyecto4">
+						<div class="overlay">
+							<div class="text row">
+								<p class="text-justify pull-right">Proyecto con Bootstrap, se borran <br>y agregan datos a API de Laboratoría</p>
+								<div class="col-xs-6">
+									<a href="https://nallelyht.github.io/pokedex" target="_blank" class="btn pull-right">
+										Demo
+									</a>
+								</div>
+								<div class="col-xs-6">
+									<a href="https://github.com/Nallelyht/pokedex" target="_blank" class="btn">
+										Código
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -230,7 +229,7 @@
 				<div class="col-xs-6">
 					<img src="assets/img/js_160.png" class="img-responsive img-skills" alt="js">
 					<div class="progress">
-						<div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+						<div class="progress-bar progress-bar-striped progress-bar-purple active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
 							javaScript
 							<span class="sr-only">70% Complete</span>
 						</div>
@@ -240,7 +239,7 @@
 				<div class="col-xs-6">
 					<img src="assets/img/jquery_160.png" class="img-responsive img-skills" alt="js">
 					<div class="progress">
-						<div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+						<div class="progress-bar progress-bar-striped progress-bar-purple active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
 							jQuery
 							<span class="sr-only">60% Complete</span>
 						</div>
@@ -252,7 +251,7 @@
 				<div class="col-xs-6">
 					<img src="assets/img/html5_160.png" class="img-responsive img-skills" alt="js">
 					<div class="progress">
-						<div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+						<div class="progress-bar progress-bar-striped progress-bar-purple active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
 							HTML5
 							<span class="sr-only">70% Complete</span>
 						</div>
@@ -262,7 +261,7 @@
 				<div class="col-xs-6 center-block">
 					<img src="assets/img/css3_160.png" class="img-responsive img-skills" alt="js">
 					<div class="progress">
-						<div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+						<div class="progress-bar progress-bar-striped progress-bar-purple active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
 							CSS3
 							<span class="sr-only">70% Complete</span>
 						</div>
@@ -272,10 +271,16 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-6">
-					<img src="assets/img/bootstrap_160.png" class="img-responsive img-skills" alt="js">
-					<img src="assets/img/materialize_160.png" class="img-responsive img-skills" alt="js">
+					<div class="row">
+						<div class="col-md-2 col-xs-6">
+							<img src="assets/img/bootstrap_160.png" class="img-responsive img-skills" alt="js">
+						</div>
+						<div class="col-xs-6">
+							<img src="assets/img/materialize_160.png" class="img-responsive img-skills" alt="js">
+						</div>
+					</div>
 					<div class="progress">
-						<div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+						<div class="progress-bar progress-bar-striped progress-bar-purple active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
 							Frameworks
 							<span class="sr-only">60% Complete</span>
 						</div>
@@ -285,7 +290,7 @@
 				<div class="col-xs-6">
 					<img src="assets/img/github_160.png" class="img-responsive img-skills" alt="js">
 					<div class="progress">
-						<div class="progress-bar progress-bar-striped progress-bar-info active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+						<div class="progress-bar progress-bar-striped progress-bar-purple active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
 							Github
 							<span class="sr-only">50% Complete</span>
 						</div>
@@ -293,68 +298,86 @@
 					</div>
 				</div>
 			</div>
-		</section>
-		<footer id="contact-me" class="container-fluid">
-			<h2 class="text-center font">Contacto</h2>
 			<div class="row">
-				<div class="col-md-3 col-md-offset-2 col-xs-12">
-					<h4>
-						<a href="mailto:nallelyht@gmail.com" target="_blank">
-							<i class="fa fa-google fa-lg" aria-hidden="true">
-							</i> 
-							nallelyht@gmail.com
-						</a>
-					</h4>
+				<div class="col-xs-6" style="margin-top: 14px">
+					<img src="assets/img/sass.png" class="img-responsive img-skills" alt="js">
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped progress-bar-purple active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+							SASS
+							<span class="sr-only">60% Complete</span>
+						</div>
+						60%
+					</div>
 				</div>
-				<div class="col-md-3 col-xs-12">
-					<h4>
-						<a href="https://api.whatsapp.com/send?phone=525576633132" target="_blank">
-							<i class="fa fa-whatsapp" aria-hidden="true"></i> 
-							+52 55-76-63-31-32
-						</a>
-					</h4>
-				</div>
-				<div class="col-md-3 col-xs-6">
-					<h4>
-						<a href="https://github.com/Nallelyht" target="_blank">
-							<i class="fa fa-github fa-lg" aria-hidden="true">
-							</i>
-							Nallelyht
-						</a>
-					</h4>
+				<div class="col-xs-6">
+					<img src="assets/img/gulp.png" class="img-responsive img-skills" alt="js">
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped progress-bar-purple active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+							Gulp
+							<span class="sr-only">50% Complete</span>
+						</div>
+						60%
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-3 col-md-offset-2 col-xs-6">
-					<h4>
-						<a href="https://www.linkedin.com/in/nallelyht" target="_blank">
-							<i class="fa fa-linkedin fa-lg" aria-hidden="true">
-							</i>
-							/nallelyht
-						</a>
-					</h4>			
+		</section>
+		<footer class="footer" id="contact-me">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-5 col-xs-3 col-xs-offset-5">
+						<img src="assets/img/nh_logo_v1-02.png" alt="nh" class="img-responsive">
+					</div>
 				</div>
-				<div class="col-md-3 col-xs-8">
-					<h4>
-						<i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
-						CDMX
-					</h4>
+			</div>
+			<div class="container">
+				<h3 class="font">Contacto</h3>
+				<div class="row">
+					<ul>
+						<li class="col-xs-1 col-xs-offset-1 col-md-offset-3">
+							<a href="mailto:nallelyht@gmail.com" target="_blank">
+								<i class="fa fa-google fa-lg" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="col-xs-1">
+							<a href="https://api.whatsapp.com/send?phone=525576633132" target="_blank">
+								<i class="fa fa-whatsapp fa-lg" aria-hidden="true"></i> 
+							</a>
+						</li>
+						<li class="col-xs-1">
+							<a href="https://github.com/Nallelyht" target="_blank">
+								<i class="fa fa-github fa-lg" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="col-xs-1">
+							<a href="https://www.linkedin.com/in/nallelyht" target="_blank">
+								<i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="col-xs-1">
+							<a href="assets/img/Miriam%20Nallely%20House%20tomas.pdf" target="_blank" download="CV-Nallely-House">
+								<i class="fa fa-download fa-lg" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li class="col-xs-1">
+							<a href=""><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
 				</div>
-				<div class="col-md-3  col-xs-12">
-					<h4>
-						<a href="assets/img/Miriam%20Nallely%20House%20tomas.pdf" target="_blank" download="CV-Nallely-House">
-							<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
-							Descarga mi CV
-						</a>
-					</h4>
-				</div>
+			</div>
+			<div class="copyright">
+				<p class="text-center">
+					Diseñado por 
+					<a href="https://github.com/Nallelyht/nallelyht.github.io" target="_blank">
+						@nallelyht
+					</a>
+				</p>
 			</div>
 		</footer>
-		<div class="container-fluid design">
-			<p class="text-center">Diseñado por <a href="https://github.com/Nallelyht/nallelyht.github.io" target="_blank">@nallelyht</a></p>
-		</div>
 		<script src="js/jquery-3.2.1.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script src="https://cdn.rawgit.com/davatron5000/Lettering.js/5a4897f9/jquery.lettering.js"></script>
+		<script src="js/wow.min.js"></script>
 		<script src="js/main.js"></script>
 	</body>
 </html>
