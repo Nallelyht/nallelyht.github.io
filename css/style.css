@@ -5,6 +5,7 @@ body {
 .font{
 	font-family: 'Syncopate', sans-serif;
 	text-align: center;
+	font-size: 3.5rem;
 }
 body .navbar, 
 .navbar .navbar-brand, 
@@ -65,7 +66,6 @@ body .navbar,
 		padding: 15px 0;
 
 	}
-
 	.navbar-defaults.affix {
 		padding: 0;
 	}
@@ -89,8 +89,7 @@ header{
 	font-family: 'Syncopate', sans-serif;
 	color: #441151;
 	position: absolute;
-	font-size: 2.5rem;
-	padding-left: 40%;
+	font-size: 2vw;
 }
 .container:hover .header-text{
 	color: #339999;
@@ -210,9 +209,6 @@ h1.flag:hover span::before {
 	color: #339999;
 }
 #about-me h2, #proyects h2{
-	font-family: 'Syncopate', sans-serif;
-	text-align: center;
-	font-size: 3.5rem;
 	margin-bottom: 5%;
 	margin-top: 5%
 }
@@ -224,8 +220,8 @@ h1.flag:hover span::before {
 
 .me-picture{
 	padding: 0;
-	height: 40vh;
 	border-radius: 17px;
+	height: 40vh;
 }
 
 /*proyects*/
@@ -233,6 +229,19 @@ h1.flag:hover span::before {
 @media(max-width:768px){
 	.mobile{
 		display: none;
+	}
+	#about-me h3{
+		font-size: 100%;
+	}
+	.me-picture{
+		padding: 0;
+		border-radius: 17px;
+		height: auto;
+	}
+	.font{
+		font-family: 'Syncopate', sans-serif;
+		text-align: center;
+		font-size: 100%;
 	}
 }
 
