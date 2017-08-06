@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
@@ -13,32 +13,30 @@
 		<title>Nallely House</title>
 	</head>
 	<body>
-		<nav class="navbar navbar-fixed-top navbar-defaults " id="mainNav">
-			<div class="container-fluid">
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" id="nav-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
 					<a class="navbar-brand img-responsive" href="#"><img src="assets/img/nh_logo_v1-02.png" alt="logo" class="img-responsive"></a>
 				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a  href="#about-me">Acerca de mi<span class="sr-only">(current)</span></a></li>
-						<li><a href="#proyects">Proyectos</a></li>
-						<li><a href="#skills">Habilidades</a></li>
-						<li><a href="#contact-me">Contacto</a></li>
-					</ul>
+				<div class="menu-bg"></div>
+				<div class="menu-burger">☰</div>
+				<div class="menu-items">
+					<div><a href="#about-me">Acerca de mi</a></div>
+					<div><a href="#proyects">Proyectos</a></div>
+					<div><a href="#skills">Habilidades</a></div>
+					<div><a href="#contact-me">Contacto</a></div>
 				</div>
 			</div>
 		</nav>
 		<header>
-			<div class="container">
-				<h1 class="flag">Nallely&nbsp;House</h1>
+			<div class="container hidden-xs">
 				<div class="row">
-					<div class="col-xs-6 pull-right">
+					<div class="col-xs-11">
+						<h1 class="flag">Nallely&nbsp;House</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-8 pull-right">
 						<h3 class="header-text mast__text js-spanize">
 							FrontEnd Developer</h3>
 					</div>
@@ -370,10 +368,6 @@
 						<li class="col-xs-1">
 							<a href="assets/img/Miriam%20Nallely%20House%20tomas.pdf" target="_blank" download="CV-Nallely-House">
 								<i class="fa fa-download fa-lg" aria-hidden="true"></i>
-							</a>
-						</li>
-						<li class="col-xs-1">
-							<a href=""><i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
 							</a>
 						</li>
 					</ul>
