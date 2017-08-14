@@ -399,17 +399,11 @@ h1.flag:hover span::before {
 	background-color: #339999;
 }
 
-/* img:hover{
-opacity: 0.8;
-border-radius: 100%;
-transition: all 2s ease;
-} */
-
 .row-2 {
 	/* column width */
 	-moz-column-width: 19em;
 	-webkit-column-width: 19em;
-	
+
 	/* space between columns */
 	-moz-column-gap: 1em;
 	-webkit-column-gap: 1em;
