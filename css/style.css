@@ -389,12 +389,21 @@ h1.flag:hover span::before {
 	}
 
 	.footer ul li a{
+<<<<<<< HEAD
 		padding: 2vw;
 		font-size: 30px;
 		width: 30px;
 		text-align: center;
 		text-decoration: none;
 		margin: 5px 2px;
+=======
+		padding: 10px;
+		font-size: 15px;
+		width: 15px;
+		text-align: center;
+		text-decoration: none;
+		margin: 3px 1px;
+>>>>>>> 88255bfd9348fef8aeec3e411e6119c7ce6b94b4
 		border-radius: 50%;
 		color: #fff;
 	}
@@ -459,8 +468,11 @@ h1.flag:hover span::before {
 /*Skills*/
 #skills{
 	color: #339999;
-	background-color: #eeb3d4;
-	height: 100vh;
+	background-image: url(../assets/img/skills.png);
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	height: auto;
 	padding-top: 5%;
 }
 .img-skills{
