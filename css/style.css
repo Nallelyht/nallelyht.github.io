@@ -387,6 +387,17 @@ h1.flag:hover span::before {
 		/*	white-space: nowrap; */
 		font-size: 3.8vw;
 	}
+
+	.footer ul li a{
+		padding: 2vw;
+		font-size: 30px;
+		width: 30px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px 2px;
+		border-radius: 50%;
+		color: #fff;
+	}
 }
 
 #proyects h2{
@@ -471,18 +482,17 @@ h1.flag:hover span::before {
 	margin-bottom: 2rem;
 }
 .footer ul li a{
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
 	text-align: center;
-	border-radius: 5px;
-	color: #073D4E;
-	font-size: 20px;
-	border: 1px solid #073D4E;
-	height: 32px;
-	line-height: 32px;
-	width: 32px;
-	display: inline-block;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	color: #fff;
 }
 li:hover a{
-	background-color: #D5B3E2;
+	background-color: #441151;
 }
 .copyright{
 	background-color: #441151;
