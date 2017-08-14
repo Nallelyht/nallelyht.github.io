@@ -1,3 +1,8 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
 body { 
 	padding-top: 70px; 
 	font-family: 'Montserrat Alternates', sans-serif;
@@ -236,12 +241,6 @@ h1.flag {
 	position: relative;
 	cursor: default;
 	font-family: 'Syncopate', sans-serif;
-
-	/* Paper Shadow */
-
-	/* Each letter */
-
-	/* Hover interaction */
 }
 h1.flag::before {
 	content: '';
@@ -384,6 +383,10 @@ h1.flag:hover span::before {
 		text-align: center;
 		font-size: 100%;
 	}
+	.overlay .text-overlay{
+		/*	white-space: nowrap; */
+		font-size: 3.8vw;
+	}
 }
 
 #proyects h2{
@@ -402,9 +405,22 @@ border-radius: 100%;
 transition: all 2s ease;
 } */
 
-.btn{
-	background-color: #9297C4;
-	color: #fff;
+.row-2 {
+	/* column width */
+	-moz-column-width: 19em;
+	-webkit-column-width: 19em;
+	
+	/* space between columns */
+	-moz-column-gap: 1em;
+	-webkit-column-gap: 1em;
+}
+
+.item-proyecto {
+	display: inline-block;
+	width: 100%;
+}
+.container-overlay{
+	position: relative;
 }
 .overlay {
 	position: absolute;
@@ -418,15 +434,15 @@ transition: all 2s ease;
 	transition: .5s ease;
 }
 
-.col-md-4:hover .overlay {
+.container-overlay:hover .overlay {
 	bottom: 0;
 	height: 100%;
 }
 
-.text {
-	white-space: nowrap; 
+.text-overlay {
+	/*	white-space: nowrap; */
 	color: white;
-	font-size: 1.5rem;
+	font-size: 1.5vw;
 	position: absolute;
 	overflow: hidden;
 	top: 50%;
