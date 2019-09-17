@@ -505,3 +505,8 @@ li:hover a{
 .copyright a{
   color: #339999;
 }
+@media(min-width:1360){
+  #header_text {
+    width: 90vw;
+	}
+}
